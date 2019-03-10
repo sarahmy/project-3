@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		6598460B2231793D00133453 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6598460A2231793D00133453 /* main.swift */; };
+		6598461622350DC300133453 /* class.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6598461522350DC300133453 /* class.swift */; };
+		6598461822350DD600133453 /* partie 1 team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6598461722350DD600133453 /* partie 1 team.swift */; };
+		6598461A22350DE100133453 /* partie 2 fights.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6598461922350DE100133453 /* partie 2 fights.swift */; };
+		6598461C22350ED800133453 /* Partie 3 weapons safe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6598461B22350ED800133453 /* Partie 3 weapons safe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,10 @@
 /* Begin PBXFileReference section */
 		659846072231793D00133453 /* Project3Game */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Project3Game; sourceTree = BUILT_PRODUCTS_DIR; };
 		6598460A2231793D00133453 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		6598461522350DC300133453 /* class.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = class.swift; sourceTree = "<group>"; };
+		6598461722350DD600133453 /* partie 1 team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "partie 1 team.swift"; sourceTree = "<group>"; };
+		6598461922350DE100133453 /* partie 2 fights.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "partie 2 fights.swift"; sourceTree = "<group>"; };
+		6598461B22350ED800133453 /* Partie 3 weapons safe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Partie 3 weapons safe.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				6598460A2231793D00133453 /* main.swift */,
+				6598461522350DC300133453 /* class.swift */,
+				6598461722350DD600133453 /* partie 1 team.swift */,
+				6598461922350DE100133453 /* partie 2 fights.swift */,
+				6598461B22350ED800133453 /* Partie 3 weapons safe.swift */,
 			);
 			path = Project3Game;
 			sourceTree = "<group>";
@@ -120,6 +132,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6598460B2231793D00133453 /* main.swift in Sources */,
+				6598461A22350DE100133453 /* partie 2 fights.swift in Sources */,
+				6598461622350DC300133453 /* class.swift in Sources */,
+				6598461822350DD600133453 /* partie 1 team.swift in Sources */,
+				6598461C22350ED800133453 /* Partie 3 weapons safe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

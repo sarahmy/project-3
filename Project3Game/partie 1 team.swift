@@ -38,7 +38,7 @@ func nameYourCharacter() {
 
 
 // Function to compose your team
-func composeYourTeamFirstPlayer() {    print("To compose your team, you have, first of all, to choose three characters among the four types of characters: a fighter, a magus, a dwarf and a colossus.")
+func composeYourTeamFirstPlayer() {    print("To compose your team 💚💚💚, you have, first of all, to choose three characters among the four types of characters: a fighter, a magus, a dwarf and a colossus.")
     //Informations on the sorts of characters
     /*introductCharacters()*/
     while firstTeam.count < 3 {
@@ -74,7 +74,7 @@ func composeYourTeamFirstPlayer() {    print("To compose your team, you have, fi
 
 
 func composeYourTeamSecondPlayer() {
-    print("To compose your team, you have, first of all, to choose three characters among the four types of characters: a fighter, a magus, a dwarf and a colossus.")
+    print("To compose your team 💜💜💜, you have, first of all, to choose three characters among the four types of characters: a fighter, a magus, a dwarf and a colossus.")
     
     //Informations on the sorts of characters
     print("Do you need some precisions about the specificites of the different characters? If you do press 1.")

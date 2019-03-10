@@ -68,7 +68,7 @@ func healFirstTeam() {
 
 //The team one start to attack
 func attackerTeamOne() {
-    print("\(player1.name), it is your turn to play. Please pick a character from your team, please press 1 to pick \(firstTeam[0]), 2 to pick \(firstTeam[1]) or 3 for \(firstTeam[2]).")
+    print("\(player1.name) 💚💚💚, it is your turn to play. Please pick a character from your team, please press 1 to pick \(firstTeam[0]), 2 to pick \(firstTeam[1]) or 3 for \(firstTeam[2]).")
     if let attacker = readLine() {
         switch attacker {
         case "1":
@@ -234,7 +234,7 @@ func defiedOneTeamOne() {
 
 // attacker et defied one on team two
 func attackerTeamTwo() {
-    print("To pick a character from your team, please press 1, 2 or 3.")
+    print("Your turn \(player2.name) 💜💜💜, to pick a character from your team, please press 1, 2 or 3.")
     if let attacker = readLine() {
         switch attacker {
         case "1": //
@@ -302,7 +302,7 @@ func defiedOneTeamTwo() {
                 opponent.insert(firstTeam[0].startingPoints, at: 0)
                 fight()
                 firstTeam[0].startingPoints = opponent[0]
-                print("It remains only \(firstTeam[0].startingPoints) points to \(secondTeam[2]) named \(names[1]).")
+                print("It remains only \(firstTeam[0].startingPoints) points to \(firstTeam[2]) named \(names[1]).")
             }
             else {
                 print("You have already floored this one.")
@@ -314,7 +314,7 @@ func defiedOneTeamTwo() {
                 opponent.insert(firstTeam[1].startingPoints, at: 0)
                 fight()
                 firstTeam[1].startingPoints = opponent[0]
-                print("It remains only \(firstTeam[1].startingPoints) points to \(secondTeam[2]) named \(names[2]).")
+                print("It remains only \(firstTeam[1].startingPoints) points to \(firstTeam[2]) named \(names[2]).")
             }
             else {
                 print("You have already floored this one.")
@@ -326,7 +326,7 @@ func defiedOneTeamTwo() {
                 opponent.insert(firstTeam[2].startingPoints, at: 0)
                 fight()
                 firstTeam[2].startingPoints = opponent[0]
-                print("It remains only \(firstTeam[2].startingPoints) points to \(secondTeam[2]) named \(names[3]).")
+                print("It remains only \(firstTeam[2].startingPoints) points to \(firstTeam[2]) named \(names[3]).")
             }
             else {
                 print("You have already floored this one.")
@@ -358,17 +358,21 @@ var firstTeamTotalPoints: Int {
     }
 }
 
+//bonus
+var loops = 0
+
 // function that start the fights between the two teams
 func gameOn() {
     while firstTeamTotalPoints > 0 && secondTeamTotalPoints > 0 {
+        loops += 1
         attackerTeamOne()
         attackerTeamTwo()
     }
     print("game over")
     if firstTeamTotalPoints > 0 {
-        print("\(player1.name), you won!")
+        print("🎈🎉🎉🎈🎉🎉🎈 \(player1.name)💚💚💚, you won this game in \(loops) rounds 🎈🎉🎉🎈🎉🎉🎈!")
     }
     else {
-        print("\(player2.name), you won!")
+        print("🎈🎉🎉🎈🎉🎉🎈 \(player2.name)💜💜💜, you won this game in \(loops) rounds 🎈🎉🎉🎈🎉🎉🎈!")
     }
 }

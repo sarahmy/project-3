@@ -11,8 +11,7 @@ import Foundation
 //treasure locker for magus, it randomly changes or not the amount of healing power of the magus
 func magusChangeOfPower() {
     print("A locker has just appeared in front of you. It contains different healing powers for your magus. The one you'll find is the locker will come in replacement of the one you already have for this tour. The trick is that you cannot know in advance what is in this locker, if the healing power you'll find will be better than you have.")
-    print("When you are ready press any button.")
-    _ = readLine()
+    print("                     🎁🎁🎁                          ")
     let surpriseHeal: Int = Int.random(in: 1..<100)
     if surpriseHeal > 50 {
         if surpriseHeal < 25 {
@@ -45,8 +44,7 @@ func magusChangeOfPower() {
 // Treasure locker for attacker, it randomly changes or not the attacker weapon and of course the damages caused.
 func switchWeapons() {
     print("A locker has just appeared in front of you. It contains weapons. The weapon you'll find will come in replacement of  the one you already have for this tour. The trick is that you cannot know in advance what is in this locker, if the weapon you'll find will be better than you have.")
-    print("When you are ready press a button.")
-    _ = readLine()
+    print("                        🎁🎁🎁                       ")
     let surprise: Int = Int.random(in: 1..<100)
     if surprise > 50 {
         if surprise < 25 {

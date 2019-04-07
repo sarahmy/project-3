@@ -9,7 +9,7 @@
 import Foundation
 
 func reminderTeams() {
-    print("Who from your team will be send to fight? Just to remind you: \nIn First Team we have 1)\(firstTeam[0]) : \(names[1]), 2)\(firstTeam[1]) : \(names[2]), 3)\(firstTeam[2]) : \(names[3]); \nIn Second Team we have 1)\(secondTeam[0]) : \(names[4]), 2)\(secondTeam[1]) : \(names[5]), 3)\(secondTeam[2]) : \(names[6]).")
+    print("Who from your team will be send to fight? Just to remind you: \nIn First Team we have \n1)\(firstTeam[0]) : \(names[1]), \n2)\(firstTeam[1]) : \(names[2]), \n3)\(firstTeam[2]) : \(names[3]); \nIn Second Team we have: \n1)\(secondTeam[0]) : \(names[4]), \n2)\(secondTeam[1]) : \(names[5]), \n3)\(secondTeam[2]) : \(names[6]).")
 }
 
 // function of what happen when a magus decide to heal someone
@@ -270,7 +270,7 @@ func attackerTeamTwo() {
                 attackerTeamTwo()
             }
         case "3":
-            if firstTeam[0].startingPoints > 0 {
+            if secondTeam[2].startingPoints > 0 {
                 if secondTeam[2].weapons == "Healing" {
                     battle.insert(secondTeam[2].damagesCausedByTheirAttacks, at: 0)
                     magusChangeOfPower()
@@ -366,7 +366,9 @@ func gameOn() {
     while firstTeamTotalPoints > 0 && secondTeamTotalPoints > 0 {
         loops += 1
         attackerTeamOne()
-        attackerTeamTwo()
+        if firstTeamTotalPoints > 0 && secondTeamTotalPoints > 0 {
+            attackerTeamTwo()
+        }
     }
     print("game over")
     if firstTeamTotalPoints > 0 {

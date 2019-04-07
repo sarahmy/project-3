@@ -7,8 +7,6 @@
 //
 
 import Foundation
-
-
 // class Player with players's specificities
 class Player {
     var name: String
@@ -27,12 +25,10 @@ class Character {
         self.weapons = weapons; self.startingPoints = startingPoints; self.damagesCausedByTheirAttacks = damagesCausedByTheirAttacks
     }
 }
-
 // Creation of the four type of characters
 class Fighter: Character {
     static let typeOfCharacter = "fighter"
     var nameFighter: String
-    var pointsFighter = 100
     init(nameFighter: String) {
         self.nameFighter = nameFighter
         super.init(weapons: "Sword", startingPoints: 100, damagesCausedByTheirAttacks: 50)

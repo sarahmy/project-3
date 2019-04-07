@@ -7,14 +7,10 @@
 //
 
 import Foundation
-
 // Introducing to the players the characters
 func introductCharacters() {
     print("Here some precisions about the different charachters to help you made an illuminated choice: \nthe fighter💪 starts with 100 life points and have a sword that can remove 10 points of his opponent life points; \nthe magus🧙‍♂️ gift is healing his team mate by increasing their life points by 30, he is also quite resistant with his 250 life points; \nthe colossus🏋 and his 300 life points is a tough and resistant character but doesn't do lot of damages with his fists, only 2 points; \nfinally, the dwarf🧝‍♂️ cause a lof of damages with his axe, 50 points less but is quite fragile with only 70 life points.")
 }
-
-
-
 func checkNamesUniques() {
     if names.contains(nameToCheck[0]) {
         print("Pick another one, the one you choose has been already been taken.")
@@ -26,8 +22,6 @@ func checkNamesUniques() {
         
     }
 }
-
-
 // function to choose an unique name
 func nameYourCharacter() {
     print("Please, pick a name for your character that is not already taken.")
@@ -35,8 +29,6 @@ func nameYourCharacter() {
     nameToCheck.insert("\(String(describing: nameIt))", at:0)
     return(checkNamesUniques())
 }
-
-
 // Function to compose your team
 func composeYourTeamFirstPlayer() {    print("To compose your team 💚💚💚, you have, first of all, to choose three characters among the four types of characters: a fighter, a magus, a dwarf and a colossus.")
     //Informations on the sorts of characters
@@ -71,8 +63,6 @@ func composeYourTeamFirstPlayer() {    print("To compose your team 💚💚💚,
         }
     }
 }
-
-
 func composeYourTeamSecondPlayer() {
     print("To compose your team 💜💜💜, you have, first of all, to choose three characters among the four types of characters: a fighter, a magus, a dwarf and a colossus.")
     

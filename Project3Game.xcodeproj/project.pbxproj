@@ -8,10 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		6598460B2231793D00133453 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6598460A2231793D00133453 /* main.swift */; };
-		6598461622350DC300133453 /* class.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6598461522350DC300133453 /* class.swift */; };
-		6598461822350DD600133453 /* createTeams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6598461722350DD600133453 /* createTeams.swift */; };
-		6598461A22350DE100133453 /* fights.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6598461922350DE100133453 /* fights.swift */; };
-		6598461C22350ED800133453 /* weaponsSafe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6598461B22350ED800133453 /* weaponsSafe.swift */; };
+		6598461622350DC300133453 /* classCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6598461522350DC300133453 /* classCharacter.swift */; };
+		65E038DF2279B761000CC6EC /* classFighter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E038DE2279B761000CC6EC /* classFighter.swift */; };
+		65E038E12279B786000CC6EC /* classColossus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E038E02279B786000CC6EC /* classColossus.swift */; };
+		65E038E32279B7A0000CC6EC /* classDwarf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E038E22279B7A0000CC6EC /* classDwarf.swift */; };
+		65E038E52279B7BA000CC6EC /* classMagus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E038E42279B7BA000CC6EC /* classMagus.swift */; };
+		65E038E72279B7E9000CC6EC /* classPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E038E62279B7E9000CC6EC /* classPlayer.swift */; };
+		65E038E92279B819000CC6EC /* classPlayerOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E038E82279B819000CC6EC /* classPlayerOne.swift */; };
+		65E038EB2279B82C000CC6EC /* classPlayerTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E038EA2279B82C000CC6EC /* classPlayerTwo.swift */; };
+		65E038EF2279B94A000CC6EC /* classFirstTeam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E038EE2279B94A000CC6EC /* classFirstTeam.swift */; };
+		65E038F12279B97F000CC6EC /* classSecondTeam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E038F02279B97F000CC6EC /* classSecondTeam.swift */; };
+		65E038F32279B9B2000CC6EC /* classCharacterName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E038F22279B9B2000CC6EC /* classCharacterName.swift */; };
+		65E038F62279B9DA000CC6EC /* classFight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E038F52279B9DA000CC6EC /* classFight.swift */; };
+		65E038F82279BA0A000CC6EC /* classFightTeamOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E038F72279BA0A000CC6EC /* classFightTeamOne.swift */; };
+		65E038FA2279BA1B000CC6EC /* classFightTeamTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E038F92279BA1B000CC6EC /* classFightTeamTwo.swift */; };
+		65E038FC2279BA48000CC6EC /* classPartyStart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E038FB2279BA48000CC6EC /* classPartyStart.swift */; };
+		65E038FE2279BAD7000CC6EC /* classTeam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E038FD2279BAD7000CC6EC /* classTeam.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,10 +41,22 @@
 /* Begin PBXFileReference section */
 		659846072231793D00133453 /* Project3Game */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Project3Game; sourceTree = BUILT_PRODUCTS_DIR; };
 		6598460A2231793D00133453 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		6598461522350DC300133453 /* class.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = class.swift; sourceTree = "<group>"; };
-		6598461722350DD600133453 /* createTeams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = createTeams.swift; sourceTree = "<group>"; };
-		6598461922350DE100133453 /* fights.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fights.swift; sourceTree = "<group>"; };
-		6598461B22350ED800133453 /* weaponsSafe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weaponsSafe.swift; sourceTree = "<group>"; };
+		6598461522350DC300133453 /* classCharacter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = classCharacter.swift; sourceTree = "<group>"; };
+		65E038DE2279B761000CC6EC /* classFighter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = classFighter.swift; sourceTree = "<group>"; };
+		65E038E02279B786000CC6EC /* classColossus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = classColossus.swift; sourceTree = "<group>"; };
+		65E038E22279B7A0000CC6EC /* classDwarf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = classDwarf.swift; sourceTree = "<group>"; };
+		65E038E42279B7BA000CC6EC /* classMagus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = classMagus.swift; sourceTree = "<group>"; };
+		65E038E62279B7E9000CC6EC /* classPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = classPlayer.swift; sourceTree = "<group>"; };
+		65E038E82279B819000CC6EC /* classPlayerOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = classPlayerOne.swift; sourceTree = "<group>"; };
+		65E038EA2279B82C000CC6EC /* classPlayerTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = classPlayerTwo.swift; sourceTree = "<group>"; };
+		65E038EE2279B94A000CC6EC /* classFirstTeam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = classFirstTeam.swift; sourceTree = "<group>"; };
+		65E038F02279B97F000CC6EC /* classSecondTeam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = classSecondTeam.swift; sourceTree = "<group>"; };
+		65E038F22279B9B2000CC6EC /* classCharacterName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = classCharacterName.swift; sourceTree = "<group>"; };
+		65E038F52279B9DA000CC6EC /* classFight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = classFight.swift; sourceTree = "<group>"; };
+		65E038F72279BA0A000CC6EC /* classFightTeamOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = classFightTeamOne.swift; sourceTree = "<group>"; };
+		65E038F92279BA1B000CC6EC /* classFightTeamTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = classFightTeamTwo.swift; sourceTree = "<group>"; };
+		65E038FB2279BA48000CC6EC /* classPartyStart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = classPartyStart.swift; sourceTree = "<group>"; };
+		65E038FD2279BAD7000CC6EC /* classTeam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = classTeam.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +74,8 @@
 			isa = PBXGroup;
 			children = (
 				659846092231793D00133453 /* Project3Game */,
+				65E038F42279B9C2000CC6EC /* Fights */,
+				65E038FB2279BA48000CC6EC /* classPartyStart.swift */,
 				659846082231793D00133453 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -65,11 +91,10 @@
 		659846092231793D00133453 /* Project3Game */ = {
 			isa = PBXGroup;
 			children = (
-				6598461D2235BC3D00133453 /* characters */,
 				6598460A2231793D00133453 /* main.swift */,
-				6598461722350DD600133453 /* createTeams.swift */,
-				6598461922350DE100133453 /* fights.swift */,
-				6598461B22350ED800133453 /* weaponsSafe.swift */,
+				6598461D2235BC3D00133453 /* characters */,
+				65E038DA2279B6A4000CC6EC /* Players */,
+				65E038DC2279B6B6000CC6EC /* Teams */,
 			);
 			path = Project3Game;
 			sourceTree = "<group>";
@@ -77,9 +102,44 @@
 		6598461D2235BC3D00133453 /* characters */ = {
 			isa = PBXGroup;
 			children = (
-				6598461522350DC300133453 /* class.swift */,
+				6598461522350DC300133453 /* classCharacter.swift */,
+				65E038DE2279B761000CC6EC /* classFighter.swift */,
+				65E038E02279B786000CC6EC /* classColossus.swift */,
+				65E038E22279B7A0000CC6EC /* classDwarf.swift */,
+				65E038E42279B7BA000CC6EC /* classMagus.swift */,
 			);
 			path = characters;
+			sourceTree = "<group>";
+		};
+		65E038DA2279B6A4000CC6EC /* Players */ = {
+			isa = PBXGroup;
+			children = (
+				65E038E62279B7E9000CC6EC /* classPlayer.swift */,
+				65E038E82279B819000CC6EC /* classPlayerOne.swift */,
+				65E038EA2279B82C000CC6EC /* classPlayerTwo.swift */,
+			);
+			path = Players;
+			sourceTree = "<group>";
+		};
+		65E038DC2279B6B6000CC6EC /* Teams */ = {
+			isa = PBXGroup;
+			children = (
+				65E038FD2279BAD7000CC6EC /* classTeam.swift */,
+				65E038EE2279B94A000CC6EC /* classFirstTeam.swift */,
+				65E038F02279B97F000CC6EC /* classSecondTeam.swift */,
+				65E038F22279B9B2000CC6EC /* classCharacterName.swift */,
+			);
+			path = Teams;
+			sourceTree = "<group>";
+		};
+		65E038F42279B9C2000CC6EC /* Fights */ = {
+			isa = PBXGroup;
+			children = (
+				65E038F52279B9DA000CC6EC /* classFight.swift */,
+				65E038F72279BA0A000CC6EC /* classFightTeamOne.swift */,
+				65E038F92279BA1B000CC6EC /* classFightTeamTwo.swift */,
+			);
+			path = Fights;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,11 +199,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65E038F12279B97F000CC6EC /* classSecondTeam.swift in Sources */,
+				65E038DF2279B761000CC6EC /* classFighter.swift in Sources */,
+				65E038E12279B786000CC6EC /* classColossus.swift in Sources */,
+				65E038FC2279BA48000CC6EC /* classPartyStart.swift in Sources */,
 				6598460B2231793D00133453 /* main.swift in Sources */,
-				6598461A22350DE100133453 /* fights.swift in Sources */,
-				6598461622350DC300133453 /* class.swift in Sources */,
-				6598461822350DD600133453 /* createTeams.swift in Sources */,
-				6598461C22350ED800133453 /* weaponsSafe.swift in Sources */,
+				65E038E52279B7BA000CC6EC /* classMagus.swift in Sources */,
+				65E038FA2279BA1B000CC6EC /* classFightTeamTwo.swift in Sources */,
+				65E038F32279B9B2000CC6EC /* classCharacterName.swift in Sources */,
+				65E038F62279B9DA000CC6EC /* classFight.swift in Sources */,
+				65E038E72279B7E9000CC6EC /* classPlayer.swift in Sources */,
+				65E038FE2279BAD7000CC6EC /* classTeam.swift in Sources */,
+				6598461622350DC300133453 /* classCharacter.swift in Sources */,
+				65E038F82279BA0A000CC6EC /* classFightTeamOne.swift in Sources */,
+				65E038E92279B819000CC6EC /* classPlayerOne.swift in Sources */,
+				65E038EB2279B82C000CC6EC /* classPlayerTwo.swift in Sources */,
+				65E038EF2279B94A000CC6EC /* classFirstTeam.swift in Sources */,
+				65E038E32279B7A0000CC6EC /* classDwarf.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,7 +8,7 @@
 
 import Foundation
 class FirstTeam: Team {
-    // total points of first team
+    // total points of the first team
     static var firstTeamTotalPoints: Int {
         get {
             return firstTeam[0].startingPoints + firstTeam[1].startingPoints + firstTeam[2].startingPoints
@@ -16,7 +16,7 @@ class FirstTeam: Team {
     }
     static var firstTeamNames: [String] = []
     static var firstTeam: [Character] = []
-    // Function to compose your team
+    // Function for the first player to compose his team
     static func composeYourTeamFirstPlayer() {    print("To compose your team💚💚💚, you have, first of all, to choose three characters among the four types of characters: a fighter, a magus, a dwarf and a colossus.")
         //Informations on the sorts of characters
         /*introductCharacters()*/

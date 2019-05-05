@@ -42,7 +42,6 @@ class Magus: Character {
         else {
             print("You keep your actual power. Nothing change for you... this time.")
         }
-        
     }
     init(nameMagus: String) {
         self.nameMagus = nameMagus

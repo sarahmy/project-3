@@ -116,6 +116,7 @@ class FightTeamOne: FirstTeam {
                 
             }}
     }
+    // this method is called when the attacker choosen in team one is a magus
     static func healFirstTeam() {
         print("He is a magus 🧙‍♂️. He is power is to heal himself or his still-alive team mates")
         print("You can choose who you want to heal among your team, you included by typing 1, 2 or 3.")

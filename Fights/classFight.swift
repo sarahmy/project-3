@@ -9,7 +9,7 @@
 import Foundation
 
 class Fights {
-    // functions to determined the attackers et defied ones on each team
+    // arrays of life points and damages points and healing points of the character that are playing 
     static var battle : [Int] = []
     static var opponent : [Int] = []
     static var healed : [Int] = []
@@ -22,13 +22,9 @@ class Fights {
     static func heal() {
         healed[0] += Fights.battle[0]
     }
-    
-    
-    
-    
-    // lancement du jeu
+    // gamelaunch
     static func gameOn() {
-        //bonus
+        //bonus counts tours
         var loops = 0
         while FirstTeam.firstTeamTotalPoints > 0 && SecondTeam.secondTeamTotalPoints > 0 {
             loops += 1
@@ -46,6 +42,7 @@ class Fights {
         }
         
     }
+    //function that bring to zero the character's life point supposed to be negative
     static func killed() {
         if opponent[0] < 0 {
             opponent[0] = 0

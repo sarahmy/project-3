@@ -9,6 +9,7 @@
 import Foundation
 
 class PartyStart {
+    // method that launch the all party
     static func startTheParty() {
         // The first player is welcomed to the game and asked to give his name
         PlayerOne.welcomePlayerOne()

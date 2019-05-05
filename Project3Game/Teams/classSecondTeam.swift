@@ -18,7 +18,7 @@ class SecondTeam: Team {
     // proposing the options of characters
     static var secondTeam: [Character] = []
     static var secondTeamNames: [String] = []
-    // Function to compose your team
+    // Function for the second player to compose his team
     static func composeYourTeamSecondPlayer() {
         print("To compose your team💜💜💜, you have, first of all, to choose three characters among the four types of characters: a fighter, a magus, a dwarf and a colossus.")
         

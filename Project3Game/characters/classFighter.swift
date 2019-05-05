@@ -12,7 +12,6 @@ import Foundation
 class Fighter: Character {
     static let typeOfCharacter = "fighter"
     var nameFighter: String
-    var pointsFighter = 100
     init(nameFighter: String) {
         self.nameFighter = nameFighter
         super.init(weapons: "Sword", startingPoints: 100, damagesCausedByTheirAttacks: 10)

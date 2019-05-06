@@ -15,6 +15,7 @@ class Character {
     // Treasure locker for attacker, it randomly changes or not the attacker weapon and of course the damages caused.
     func switchWeapons() {
         print("A locker has just appeared in front of you. It contains weapons. The weapon you'll find will come in replacement of  the one you already have for this tour. The trick is that you cannot know in advance what is in this locker, if the weapon you'll find will be better than you have.")
+        print("                     🎁🎁🎁                          ")
         let surprise: Int = Int.random(in: 1..<100)
         if surprise > 50 {
             if surprise < 25 {

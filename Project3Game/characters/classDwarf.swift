@@ -10,7 +10,7 @@ import Foundation
 
 //Dwarf class
 class Dwarf: Character {
-    var typeOfCharacter = "Dwarf"
+    static let typeOfCharacter = "Dwarf"
     var nameDwarf: String
     init(nameDwarf: String) {
         self.nameDwarf = nameDwarf

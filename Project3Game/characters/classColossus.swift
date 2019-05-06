@@ -10,7 +10,7 @@ import Foundation
 
 // Colossus class
 class Colossus: Character {
-    var typeOfCharacter = "Colossus"
+    static let typeOfCharacter = "Colossus"
     var nameColossus: String
     init(nameColossus: String) {
         self.nameColossus = nameColossus

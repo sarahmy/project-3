@@ -21,7 +21,7 @@ class FirstTeam: Team {
         //Informations on the sorts of characters
         /*introductCharacters()*/
         while firstTeam.count < 3 {
-            print("You made your choice? Well, to confirm your choice on the game, all you have to do is type: 1 to choose a figher, 2 for a magus, 3 for a dwarf or 4 to choose a colossus.")
+            print("You made your choice? Well, to confirm your choice on the game, all you have to do is type: 1 to choose a fighter, 2 for a magus, 3 for a dwarf or 4 to choose a colossus.")
             if let choice = readLine() {
                 switch choice {
                 case "1": //the player choose a fighter type of character

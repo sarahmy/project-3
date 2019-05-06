@@ -12,7 +12,7 @@ class FightTeamTwo: SecondTeam {
     // The team two start to attack
     // this method let the second team lead an attack
     static func attackerTeamTwo() {
-        print("To pick a character from your team, please press 1, 2 or 3.")
+        print("\(PlayerTwo.namePlayerTwo) 💜💜💜,To pick a character from your team, please press 1, 2 or 3.")
         if let attacker = readLine() {
             switch attacker {
             case "1": //
